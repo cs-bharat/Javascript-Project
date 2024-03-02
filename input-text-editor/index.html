@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input-text-editor</title>
+    <style>
+        body{
+            box-sizing: border-box;
+            background-color: black;
+        }
+    input{
+      font-size: 2rem;
+      padding: 1rem;
+      border: 2px solid black;
+      text-align: center;
+      /* margin: 3rem; */
+      margin-left: 34rem;
+    }
+    .box2{
+        height: 50vh;
+        width: 90vw;
+        background-color: rgb(138, 124, 124);
+        border: 2px solid rgb(0, 0, 0);
+        padding: 1rem;
+        margin: 3rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    h1{
+        text-align: center;
+        color: rgb(96, 98, 96);
+        font-size: 40px;
+    }
+
+    </style>
+</head>
+<body>
+    <h1>MY Text Editor</h1>
+        <p class="box2"></p>
+        <input type="text" placeholder="typeing here" id="type">
+    <script src="app.js"></script>
+</body>
+</html>

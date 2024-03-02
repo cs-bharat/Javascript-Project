@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BG-changer</title>
+    <style>
+
+      body{
+        height: 100vh;
+        width: 100vw;
+        border: 2px solid black;
+        box-sizing: border-box;
+        margin: auto;
+        text-align: center;
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.623);
+
+      }
+      .bg{
+        width: 100px;
+        height: 100px;
+        border: 2px solid black;
+      }
+      .color{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+      }
+      #green{
+        background-color: #18f5a5;
+      }
+      #violet{
+         background-color: #18eef5;
+      }
+      #blue{
+           background-color: #1844f5;
+      }
+      #yellow{
+        background-color: #f5d018;
+      }
+      #jablin{
+      background-color: #b318f5;
+      } 
+      #orange{
+        background-color: #f56218;
+      }
+    </style>
+</head>
+<body>
+    <h2 style="font-size: 3rem;  font-family: 'Courier New', Courier, monospace;" >BG CHANGER</h2>
+    <div class="color">
+       <div id="green" class="button bg">
+
+       </div>
+       <div id="violet" class="button bg">
+
+       </div>
+       <div id="blue" class="button bg">
+
+       </div>
+       <div id="yellow" class="button bg">
+
+       </div>
+       <div id="jablin" class="button bg">
+
+       </div>
+       <div id="orange" class="button bg">
+
+       </div>
+
+    </div>
+    <p style="font-size: 2rem;">Clicking a box than changed a background color of this page.</p>
+    <script src="app.js"></script>
+</body>
+</html>

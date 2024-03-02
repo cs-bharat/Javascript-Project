@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random-color-Generator</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            color: #fff;
+        }
+
+      .header{
+        width: 50vw;
+     }
+         body{
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            width: 100vw;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+            font-size: 2rem;
+            background-color: gray;
+        }
+        .btn{
+            font-size: 1.5rem;
+            width: 14vw;
+            height:7vh;
+            border: 1px solid yellow;
+            background-color: black;
+            color: white;
+            border-radius: 15px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+        }
+        .colorName{
+           height: 8vh;
+           width: 20vw;
+           border: 2px solid black;
+        }
+         
+    </style>
+</head>
+<body>
+    <div class="header">
+           <h1>Generate a random color</h1>
+           <br> 
+           <p>A Random Color Generator is a tool that generates and displays random colors, often in rgb value. It is used for creative projects, design inspiration, or adding dynamic and varied color schemes to web applications and interfaces.</p>
+    </div>
+       <button class="btn">Generate color</button>
+     <div class="colorName" , id="colorName">
+            <p id="cols"> rgb value</p>
+     </div>
+        <p>Try clicking on Generate button to generate random color, this color will change the background.</p>
+    <script src="app.js"></script>
+</body>
+</html>
