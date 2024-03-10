@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>generate random cat facts</title>
+    <style>
+        body{
+        text-align: center;
+        background-color: darkslateblue;
+       }
+       #header{
+        font-size:2rem ;
+       }
+       button{
+        text-align: center;
+        font-size: 2rem;
+        padding: 1rem;
+        border-radius: 1rem;
+        background-color: rgb(49, 49, 105);
+        border: 5px solid rgb(49,50,100);
+       }
+       button:hover{
+        color: white;
+       }
+       #result{
+        text-align: center;
+        background-color: rgb(1, 26, 48);
+        border: 1px solid black;
+        height: 20vh;
+        width: 100%;
+        color: white;
+       }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1>Get Random cat facts </h1>
+        <button>show new fact</button>
+  </div>
+  <div id="para"> 
+      <p id="result" style="display: flex; align-items: center; justify-content: center; font-size: 25px;"></p>
+  </div>
+      <!-- github se cdn link copied  -->
+      <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+      <script src="app.js"></script>
+</body>
+</html>
