@@ -1,0 +1,31 @@
+.add-iterm{
+    padding: 5px 26px;
+    border-radius: 20px;
+    background-color: chocolate;
+    border: 2px solid black;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+.add-sale-iterm{
+    padding: 5px 26px;
+    border-radius: 20px;
+    background-color: chocolate;
+    border: 2px solid black;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+.wish-list{
+    padding: 5px 55px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: rgb(74, 61, 52);
+    border: 2px solid black;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+
+body{
+    text-align: center;
+}
