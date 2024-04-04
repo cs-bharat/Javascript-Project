@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+body{
+    background-color: #134074;
+    height: 100%;
+    width: 100vw;
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    width: 100%;
+    /* width: 98%; */
+    /* height: 5vh; */
+    background-color: #8da9c4;
+    justify-content: space-between;
+    align-items: center;
+    margin:2px auto;
+    padding: 5px 10px;
+    /* padding: 0 10px; */
+}
+.navbar ul{
+    list-style: none; 
+    display: flex;
+    /* gap: 8px; */
+    min-width: 360px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.nav-button{
+    font-size: 1.4rem;
+    text-align: center;
+    border: 2px solid limegreen;
+    background-color: transparent;
+    color: white;
+    
+}
+
+.hamburger{
+    display: none;
+}
+
+/* ------------------------------------------------- */
+main{
+    margin:0 16px;
+}
+.title{
+    font-size: 2rem;
+    padding: 30px 10px;
+    color: #eef4ed;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    /* column-gap: 5px; */
+    gap: 10px 20px;
+    margin: 0 auto;
+}
+.card-box{
+    max-width: 350px;
+    background-color: blanchedalmond;
+    /* min-height: 330px; */
+    border: 2px solid black;
+    .card-img{ 
+        width: 100%;
+        img{
+          width: 100%;
+        }
+      }
+
+      .card-content{
+        margin: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        /* align-items: stretch; */
+        justify-content: space-between;
+        gap: 0.9rem;
+         .card-title{
+            font-size: 1rem;  
+         }
+         .button{
+            display: flex;
+            justify-content: space-between;
+            /* text-decoration: none; */
+            font-size: 1.4rem;
+           
+         }
+         .btn{
+            background-color: #0b2545;
+            color: #eef4ed;
+            padding: 2px 19px;
+            border-radius: 2px;
+         }
+      }
+
+}
+@media (width<=640px){
+    .navbar ul{
+       display: none;
+    
+    }
+    .hamburger{
+        display: block;
+
+    }
+    .nav-button{
+        display: none;
+    }
+}
+
