@@ -1,5 +1,6 @@
 let url = "https://catfact.ninja/fact";
 
+
 let btn = document.querySelector("button");
 btn.addEventListener("click" , async ()=>{
     let fact = await getFacts();
@@ -7,8 +8,7 @@ btn.addEventListener("click" , async ()=>{
     // paragraph me fact print ho
     let p = document.querySelector("#result");
     p.innerText = fact;
-    
-    
+       
 })
 
 // async and await ka use karke data access karna he
