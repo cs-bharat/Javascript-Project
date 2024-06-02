@@ -85,11 +85,13 @@ function btnpress(){
     checkAns(userSeq.length-1);
 }
 
+
 //  all button ko access karna he //
 let allBtns = document.querySelectorAll(".btn"); // All aygaaa..
 for(btn of allBtns){
     btn.addEventListener("click", btnpress);
 }
+
 
 // reset function //
 function reset(){
